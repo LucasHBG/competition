@@ -1,0 +1,19 @@
+DECLARE
+    -- <declarations section>
+    message varchar2(20):= 'Hello world';
+    num1 INTEGER;
+    num2 REAL;
+    num3 DOUBLE PRECISION;
+
+BEGIN
+    -- <executable command(s)>
+    /*
+    * Aqui tiro print do valor da variavel 'message'
+    */
+    dbms_output.put_line(message);
+
+EXCEPTION
+    -- <exception handling>
+
+END;
+/
