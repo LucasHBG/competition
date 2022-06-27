@@ -1,6 +1,6 @@
-public class App {
-
-    public static int maxScore(int[] cardPoints, int k) {
+public class MaxScore {
+    
+    public int getMaxScoreSum(int[] cardPoints, int k) {
         int arr_size = cardPoints.length;
 
         int l = 0;
@@ -22,13 +22,4 @@ public class App {
         return max_sum;
     }
 
-    public static void main(String[] args) throws Exception {
-        int[] arr = {1,79,80,1,1,1,200,1};
-        int k = 3;
-
-        // int[] arr = {9,7,7,9,7,7,9};
-        // int k = 7;
-        int result = maxScore(arr, k);
-        System.out.println("Sum: " + result);
-    }
 }
