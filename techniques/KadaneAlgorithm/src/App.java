@@ -18,11 +18,19 @@ public class App {
     }
 
     public static void main(String[] args) throws Exception {
-        int arr[] = { -2, 3, 2, -1 };
+        int arr[] = { 5,4,-1,7,8 };
         int n = arr.length;
-
+        
         int result = KadaneAlgorithm(arr, n);
-
         System.out.println("Maximum sum of 'k' consecutive elements: " + result);
+        
+        
+        int arr2[] = { -2,1,-3,4,-1,2,1,-5,4 };
+        int result2 = KadaneAlgorithm(arr2, arr2.length);
+        System.out.println("Maximum sum of 'k' consecutive elements: " + result2);
+        
+        int arr3[] = { 1 };
+        int result3 = KadaneAlgorithm(arr3, arr3.length);
+        System.out.println("Maximum sum of 'k' consecutive elements: " + result3);
     }
 }
