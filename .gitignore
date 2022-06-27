@@ -1,1 +1,5 @@
 bin
+.vscode
+.idea
+out
+lib
